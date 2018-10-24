@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>3061 Scouting</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="https://pbs.twimg.com/profile_images/1928223897/paw_white_background_400x400.png" type="image/gif" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <a href="https://docs.google.com/spreadsheets/d/1bx6V5X5v74Hy_kPZpJ-cLfHiOn_VidAyMDTY1kSt1dw/edit#gid=0">Spreadsheet Link</a>
+  </head>
+  <body>
+      <div id="authclass" class="b">
+        <input type="button" class="authorization" id="authorize_button" style="float: right; display: none;">Authorize</button>
+        <input type="button" class="signout" id="signout_button" style="display: none; float: right">/ Sign Out</button>
+      </div>
+      <div id="login">
+        Name:<br>
+        <input type="text" id="name" value="Reedle Reealidos"><br><br>
+        Match Number:<br>
+        <input type="number" id="match" value="1"><br><br>
+        Team Number:<br>
+        <input type="number" id="team" value="3061"><br><br>
+  
+            Position:<br>
+        <select id='position'>
+            <option value="red-top">Red Top</option>
+            <option value="red-mid">Red Middle</option>
+            <option value="red-bot">Red Bottom</option>
+            <option value="blue-top">Blue Top</option>
+            <option value="blue-mid">Blue Middle</option> 
+            <option value="blue-bot">Blue Bottom</option> 
+        </select>
+        <br><br>
+        <input type="button" value="Submit" onclick="sumbmitform()">
+      </div>
+      <div id="app">
+        <p id="gameinfo">loading game information...</p>
+        <img src="https://lh3.googleusercontent.com/-MA8oTcG8lk8/WnYZYrugPRI/AAAAAAAAGDM/T1EeMn55aHMb_0_6QKVtZrWcK9iny_2_wCL0BGAYYCw/h522/2018-02-03.png" id="image" style="position: fixed; left: 0;">
+        <button id="scale">Scale</button>
+        <button id="redswitch">Red Switch</button>
+        <button id="blueswitch">Blue Switch</button>
+        <button id="redexchange">Red Exchange</button>
+        <button id="blueexchange">Blue Exchange</button>
+        <button id="redcollect">Collect from Red</button>
+        <button id="bluecollect">Collect from Blue</button>
+        <button id="drop">Drop Cube</button>
+        <button id="autocrosstrue">Did Cross Auto Line</button>
+        <button id="undo">Undo Last Action</button>
+        <button id="timer" onclick="starttimer()">Click to Start the Timer</button>
+      </div>
+
+      <script type="text/javascript" src='main.js'></script>
+        <script async defer src="https://apis.google.com/js/api.js"
+        onload="this.onload=function(){};handleClientLoad()"
+        onreadystatechange="if (this.readyState === 'complete') this.onload()">
+      </script>
+  </body>
+</html>

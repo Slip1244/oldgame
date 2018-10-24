@@ -1,0 +1,109 @@
+#scale {
+    top: 29vw;
+    left: 47vw;
+    background-color: purple
+}
+img {
+    position: fixed;
+    width: 100vw;
+    top: 10vw;
+    margin: auto
+}
+#redswitch {
+    top: 29vw;
+    left: 24vw;
+    background-color: red
+}
+#blueswitch {
+    top: 29vw;
+    right: 24vw;
+    background-color: blue;
+    
+}
+#redcollect {
+    top: 45vw;
+    left: 27vw;
+    background-color: red;
+}
+#bluecollect {
+    top: 45vw;
+    left: 57vw;
+    background-color: blue;
+}
+#redexchange {
+    top: 25vw;
+    left: 2vw;
+    background-color: red;
+}
+#drop {
+    top: 15vw;
+    left: 44.5vw;
+    background-color: yellow;
+    color: black
+}
+#blueexchange {
+    top: 33vw;
+    right: 2vw;
+    background-color: blue;
+}
+#autocrosstrue {
+    top: 7vw;
+    left: 41vw;
+    background-color: darkgreen;
+}
+#undo {
+    top: 11.45vw;
+    right: 1vw;
+    background-color: darkred;
+}
+button {
+    position: fixed;
+    height: auto;
+    width: auto;
+    font-size: 2vw;
+    border: 0;
+    color: white;
+    border-radius: 0.5vw
+}
+#timer {
+    top: 0;
+    left: 40vw;
+    color: black;
+    margin: auto;
+}
+#app {
+    display: none
+}
+#gameinfo {
+    position: absolute;
+    top: 7.5vw;
+    left: 1vw;
+    height: auto;
+    width: auto;
+    margin: auto;
+    font-size: 2vw;
+}
+
+.red {
+  text-align: left;
+  float: right;
+  background-color: red;
+}
+
+.green {
+  text-align: left;
+  float: right;
+  background-color: lawngreen;
+}
+
+.green button {
+  text-align: left;
+  float: right;
+  background-color: lawngreen;
+}
+
+.red button {
+  text-align: left;
+  float: right;
+  background-color: red;
+}
